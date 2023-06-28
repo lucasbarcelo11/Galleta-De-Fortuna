@@ -6,7 +6,7 @@ import { useState } from "react";
 function App() {
   const [suerte, setSuerte] = useState(0);
   const [randomImg, setRandomImg] = useState(0);
-  let img = ["/public/fondo1.png", "/public/fondo3.png", "/public/fondo4.png"];
+  let img = ["./public/fondo1.png", "./public/fondo3.png", "./public/fondo4.png"];
   const generateImg = () => {
     setRandomImg(Math.floor(Math.random() * 3));
   };
